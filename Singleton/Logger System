@@ -1,0 +1,13 @@
+ Problem Statement
+You need to design a Logger System that follows the Singleton Pattern to ensure there is only one instance of the logger throughout the application.
+
+🛠 Requirements
+The logger must only have one instance (no matter how many times it is accessed).
+
+It should provide a method to log messages.
+
+It should store logs in memory and allow retrieving all logs.
+
+(Bonus) Add thread safety so multiple threads don’t create multiple instances.
+
+(Bonus) Save logs to a file instead of just in memory.
